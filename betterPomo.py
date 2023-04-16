@@ -8,7 +8,7 @@ def main():
 	start = time.time()
 	input("Enter to stop work period, Ctrl+C to exit.\n")
 	end = time.time()
-	rest = round((end-start)/4)
+	rest = round((end-start)/5)
 	print("Starting resting period...")
 	time.sleep(rest)
 	notification.notify(
